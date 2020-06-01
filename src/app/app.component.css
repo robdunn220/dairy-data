@@ -1,0 +1,30 @@
+.logo {
+    height: 100px;
+    width: 300px;
+}
+
+.navbar {
+    overflow: auto;
+    width: 100%;
+}
+
+.nav-item {
+    padding-left: 26px;
+}
+
+.nav-link {
+    font-size: calc(22px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    padding-top: 16px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border-top: 14px solid;
+    padding-bottom: 0px;
+    margin: 0;
+}
