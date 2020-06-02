@@ -30,3 +30,4 @@ phases:
       - aws s3 cp $APP_NAME s3://$S3_BUCKET --recursive
       # Begin cloudfront invalidation
       - aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID --paths "/*"
+      
