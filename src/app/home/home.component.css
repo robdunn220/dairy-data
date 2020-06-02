@@ -15,17 +15,34 @@ p {
     margin-right: 30px;
 }
 
-.parallax {
-    background-image: url(../../assets/rob_cows_jp.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    position: relative;
-    height: 90vh;
+@media (min-width: 500px) { 
+    .parallax {
+        background-image: url(../../assets/rob_cows_jp.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        position: relative;
+        height: 90vh;
+    }
+}
+
+@media (max-width: 480px) { 
+    .parallax {
+        background: url(../../assets/mobile_background.png);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        position: relative;
+        height: 60vh;
+    }
 }
 
 
