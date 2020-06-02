@@ -15,9 +15,8 @@ p {
     margin-right: 30px;
 }
 
-@media (min-width: 500px) { 
-    .parallax {
-        background-image: url(../../assets/rob_cows_jp.jpg);
+.parallax {
+        background-image: url(../../assets/standard_background.jpg);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -27,7 +26,6 @@ p {
         -o-background-size: cover;
         position: relative;
         height: 90vh;
-    }
 }
 
 @media (max-width: 480px) { 
