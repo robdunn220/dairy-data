@@ -22,6 +22,8 @@
     "@angular/platform-browser": "~8.1.2",
     "@angular/platform-browser-dynamic": "~8.1.2",
     "@angular/router": "~8.1.2",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
     "bootstrap": "^4.5.0",
     "hammerjs": "^2.0.8",
     "jquery": "^3.5.1",
