@@ -13,12 +13,6 @@
     padding-left: 26px;
 }
 
-@media (max-width: 480px) {
-    .nav-item {
-        padding-left: 18px;
-    }
-}
-
 .nav-link {
     font-size: calc(12px + (12) * ((100vw - 480px) / (1600 - 480)));
     padding-top: 16px;
