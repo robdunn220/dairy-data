@@ -29,17 +29,3 @@ hr {
     padding-bottom: 0px;
     margin: 0;
 }
-
-@media screen and (max-width: 480px) {
-    .logo {
-        width: calc(180px + (60) * ((100vw - 100px) / (480 - 100)));
-        height: calc(60px + (25) * ((100vw - 100px) / (480 - 100)));
-    }
-
-    .nav-link {
-        font-size: calc(10px + (6) * ((100vw - 100px) / (480 - 100)));
-        padding-top: 12px;
-        color: black;
-        font-family: 'Open Sans', sans-serif;
-    }
-}
