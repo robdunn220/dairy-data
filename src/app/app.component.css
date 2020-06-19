@@ -1,6 +1,6 @@
 .logo {
-    width: calc(270px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-    height: calc(80px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    width: calc(270px + (40) * ((100vw - 480px) / (1600 - 480)));
+    height: calc(80px + (15) * ((100vw - 480px) / (1600 - 480)));
 }
 
 .navbar {
@@ -14,7 +14,7 @@
 }
 
 .nav-link {
-    font-size: calc(22px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(12px + (12) * ((100vw - 480px) / (1600 - 480)));
     padding-top: 16px;
     color: black;
     font-family: 'Open Sans', sans-serif;
@@ -30,10 +30,16 @@ hr {
     margin: 0;
 }
 
-@media (max-width: 480px) {
-    .navbar {
-        overflow: auto;
-        width: 100%;
-        height: 4vh;
+@media screen and (max-width: 480px) {
+    .logo {
+        width: calc(140px + (40) * ((100vw - 100px) / (480 - 100)));
+        height: calc(30px + (15) * ((100vw - 100px) / (480 - 100)));
+    }
+
+    .nav-link {
+        font-size: calc(6px + (6) * ((100vw - 100px) / (480 - 100)));
+        padding-top: 16px;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
     }
 }
