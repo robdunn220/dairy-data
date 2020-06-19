@@ -29,3 +29,11 @@ hr {
     padding-bottom: 0px;
     margin: 0;
 }
+
+@media (max-width: 480px) {
+    .navbar {
+        overflow: auto;
+        width: 100%;
+        height: 4vh;
+    }
+}
