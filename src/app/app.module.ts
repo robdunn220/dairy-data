@@ -12,11 +12,13 @@ import { MatToolbarModule,
   MatButtonModule,
   MatProgressSpinnerModule
 } from '@angular/material';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
