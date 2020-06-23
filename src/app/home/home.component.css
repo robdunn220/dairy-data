@@ -16,7 +16,7 @@ p {
 }
 
 .parallax {
-        background-image: url(../../assets/standard_background.png);
+        background-image: url(../../assets/standard_background.jpg);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
