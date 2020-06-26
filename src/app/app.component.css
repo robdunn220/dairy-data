@@ -144,7 +144,7 @@ a {
 }
 
 .parallax {
-    background-image: url(../assets/standard_background.jpg);
+    background-image: url(../assets/standard_background.webp);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -161,7 +161,7 @@ a {
     font-size: 16px;
   }
   .parallax {
-      background: url(../assets/mobile_background_2.png);
+      background: url(../assets/mobile_background_2.webp);
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
