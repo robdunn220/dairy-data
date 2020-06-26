@@ -5,18 +5,17 @@
 .intro {
     margin-top: 14px;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
 }
 
 h1 {
-    color: black;
-    font-family: 'Open Sans', sans-serif;
     font-size: calc(32px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
     font-size: calc(16px + (26 - 10) * ((100vw - 300px) / (1600 - 300)));
     line-height: calc(1.5em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
     display: inline;
