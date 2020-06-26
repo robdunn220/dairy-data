@@ -25,12 +25,12 @@ p {
         -moz-background-size: cover;
         -o-background-size: cover;
         position: relative;
-        height: 91vh;
+        height: 100vh;
 }
 
 @media (max-width: 480px) { 
     .parallax {
-        background: url(../../assets/mobile_background.png);
+        background: url(../../assets/mobile_background_2.png);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -39,7 +39,7 @@ p {
         -moz-background-size: cover;
         -o-background-size: cover;
         position: relative;
-        height: 60vh;
+        height: 100vh;
     }
 }
 

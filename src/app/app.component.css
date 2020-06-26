@@ -121,7 +121,7 @@ a {
 
 /* 48em = 768px */
 
-@media (min-width: 48em) {
+@media (min-width: 768px) {
   .header li {
     float: left;
   }
@@ -135,6 +135,12 @@ a {
   }
   .header .menu-icon {
     display: none;
+  }
+}
+
+@media (max-width: 490px) {
+  .header li a {
+    font-size: 16px;
   }
 }
 
