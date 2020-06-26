@@ -30,7 +30,7 @@ p {
 
 @media (max-width: 480px) { 
     .parallax {
-        background: url(../../assets/mobile_background.png);
+        background: url(../../assets/mobile_background_2.png);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
