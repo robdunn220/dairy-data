@@ -9,7 +9,7 @@ import { Location } from '@angular/common';
 })
 export class AppComponent {
   title = 'dairy-data';
-  urlPath = 'url(../assets/standard_background.webp)';
+  urlPath: string;
 
   constructor(location: Location, private router: Router) {
     router.events.subscribe((val) => {
