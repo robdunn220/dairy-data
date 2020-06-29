@@ -14,26 +14,20 @@
         <i class="arrow down"></i>
     </div>
 </div>
-<!-- New responsive navbar -->
-<!-- <nav class="navbar navbar-expand-md">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <img class="logo" src="assets/dairydata_logo.png">
-        </div>
-        <ul class="nav navbar-nav">
-            <li class="nav-item">
-                <a href="#" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-                <a href="https://forms.gle/GzJK4m4qhryDFxWU7" class="nav-link">Survey</a>
-            </li>
-        </ul>
-    </div>
-</nav> -->
-
-<!-- <hr /> -->
 
 <router-outlet></router-outlet>
+
+<!-- Script to stop fixed background image stuttering in IE -->
+<script>
+    if (navigator.userAgent.match(/Trident\/7\./)) { // if IE
+        $('body').on("mousewheel", function () {
+            // remove default behavior
+            event.preventDefault();
+
+            //scroll without smoothing
+            var wheelDelta = event.wheelDelta;
+            var currentScrollPosition = window.pageYOffset;
+            window.scrollTo(0, currentScrollPosition - wheelDelta);
+        });
+    }
+</script>
