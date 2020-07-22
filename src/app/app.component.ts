@@ -14,7 +14,7 @@ export class AppComponent {
   constructor(location: Location, private router: Router) {
     router.events.subscribe((val) => {
       // see also
-      if (location.path() === '/about') {
+      if (location.path() === '/about' && window.innerWidth > 496) {
         this.urlPath = 'url(../assets/about_background.webp)';
       }
     });
