@@ -23,6 +23,7 @@
     "@angular/platform-browser-dynamic": "~8.1.2",
     "@angular/router": "~8.1.2",
     "@babel/compat-data": "^7.8.0",
+    "@okta/okta-angular": "^2.1.0",
     "bootstrap": "^4.5.0",
     "cors": "^2.8.5",
     "events": "^3.1.0",
