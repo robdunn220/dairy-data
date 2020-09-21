@@ -13,12 +13,16 @@ import { MatToolbarModule,
   MatProgressSpinnerModule
 } from '@angular/material';
 import { AboutComponent } from './about/about.component';
+import { ProfileComponent } from './profile/profile.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    ProfileComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
